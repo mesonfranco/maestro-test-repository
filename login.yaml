@@ -1,1 +1,2 @@
 - tapOn: LOGIN
+- assertVisible: SHARE
