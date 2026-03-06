@@ -1,2 +1,7 @@
 - tapOn: LOGIN
 - assertVisible: SHARE
+- runFlow:
+  when:
+    visible: "We need your permission to delete the movie"
+  commands:
+    - tapOn: ALLOW
