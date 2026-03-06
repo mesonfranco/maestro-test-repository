@@ -2,3 +2,8 @@
 - tapOn: Share
 - tapOn: YouTube
 - tapOn: "qatest.visualblasters@gmail.com"
+- runFlow:
+  when:
+    visible: MAKE MOVIE
+  commands:
+    - tapOn: SHARE
